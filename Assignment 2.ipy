@@ -1,0 +1,53 @@
+# # Functions
+# def my_name():
+#     print("My Name is Rahfah")
+# my_name()
+# def my_name(fname):
+#     print(fname +   " Aliu")
+# my_name("Email")
+# my_name("Tope")
+# def my_name(fname, lname):
+#     print(fname + " " + lname)
+#my_name("Email")
+## THis is mine
+# def my_name(*kids):
+#      print("The youngest child is " + kids[1])
+# my_name("Aliu", "Kehinde", "Rahfah")
+# def my_name(child3, child2,child1):
+#     print("The youngest child is " + child3 )
+# my_name(child1 = "Aliu", child2= "kehinde", child3="Rahfah")
+def my_name(**kids):
+    print("His last name is " + kids["lname"])
+my_name(fname = "Kehinde", lname= "Aliu")
+def my_function(Country = "Nigeria"):
+    print("I am from " + Country)
+my_function()
+my_function("Kwara State")
+
+def my_function(food):
+    for x in food:
+        print(x)
+fruit=["apple","banana","cherry"]
+my_function(fruit)
+
+def my_function(x):
+  return 5 * x
+print(my_function(3))
+print(my_function(8))
+
+def my_function(x, /):
+    print(x)
+my_function(3)
+
+def my_name(x):
+    print(x)
+my_name(x=5)
+
+
+
+
+
+
+
+
+

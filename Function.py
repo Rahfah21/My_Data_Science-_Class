@@ -72,6 +72,19 @@
 #     print(name[11])
 # print(len(name))
 
-LG_kwara = ["Ilorin west",'ekiti','oke-oro','ifelodun','barutee ','asa']
-for i in LG_kwara:
-    print(i[-1])
+# LG_kwara = ["Ilorin west",'ekiti','oke-oro','ifelodun','barutee ','asa']
+# for i in LG_kwara:
+#     print(i[-1])
+# for i in [0,1,2]:
+#     print(i)
+# Country="Nigeria"
+# print(len("country"))
+# for i in Country:
+#     print(i)
+Sentence = "Nigeria is my Country"
+mine = Sentence.split()
+print(mine)
+New=Sentence.replace('my','our')
+print(New)
+
+

@@ -1,0 +1,5 @@
+# class
+my_list=[2,'good']
+our_list=[2]
+var=4.2
+word='bad'

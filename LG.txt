@@ -1,0 +1,1 @@
+LG_kwara = ["Ilorin west",'ekiti','oke-oro','ifelodun','barutee ','asa',"Ilorin South",]
